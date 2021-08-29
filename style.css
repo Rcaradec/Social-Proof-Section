@@ -17,4 +17,81 @@ font-family: 'Spartan', sans-serif;
 
 body {
   background-image: url(./images/bg-pattern-top-desktop.svg);
+
+}
+
+.main__container {
+  margin: 20% auto;
+  padding: 50px;
+
+
+}
+
+.section__top {
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.section__top_left {
+  border: 2px solid red;
+  width: 40%;
+}
+.section__top_right {
+  border: 2px solid rgb(30, 255, 0);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__bottom {
+  border: 2px solid aquamarine;
+  margin: 20% auto;
+  display: flex;
+}
+
+.section__bottom__card {
+  border: 2px solid red;
+  padding: 40px;
+  width: 30%;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 20px;
+  color: white;
+}
+
+.section__bottom__card_img img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.section__bottom__card_id {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+}
+
+ h2 {
+  color: white;
+  font-weight: bold;
+ }
+
+
+
+h3 {
+  color: pink;
+}
+
+.section__bottom__card_desc {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  font-style: italic;
 }
